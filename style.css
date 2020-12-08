@@ -1,0 +1,19 @@
+#outerBorder {
+    max-width: 750px;
+    border-width: 2px;
+    border-color: black;
+}
+
+.col {
+    font-weight: 500;
+}
+
+input, select {
+    width: 100px;
+    border-color: black;
+}
+
+button {
+    background-color: lightblue;
+    border-color: rgb(0, 119, 255);
+}
