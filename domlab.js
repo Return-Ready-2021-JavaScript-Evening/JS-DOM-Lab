@@ -1,10 +1,13 @@
+// f to c cnvertor function
 
-let input = document.querySelector('input')
-let cValue = (input - 32) *  5/9
+function calc(userInput){
+    userInput = document.getElementsByClassName('userInput').value
+    let c = document.getElementsByClassName('c').value
+    c += userInput - 32 * (5/9)
+    console.log(c)
+}
+// getting calc butten to work
 
-const span = document.querySelector("span")
-const button = document.querySelector('calulateButton')
+let button = document.getElementsByClassName('calculateButton')
 
-button.addEventListener('click', () => {
-    cValue = span.value
-})
+button[0].addEventListener('click', calc);
