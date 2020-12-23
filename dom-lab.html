@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+  <html>
+        <head>
+          <link rel="stylesheet" href="style.css">
+        </head>
+
+    <body>
+      <div class="container">
+        <h1>Temperature Scale Converter</h1>
+           <h3>Fahrenheit</h3> 
+            <label for ="temp"> Value</label><br>
+              <input type="number" id="temp" name="temp">
+                <button onclick="fahrenheitConverter()">Calculate</button>
+            <div> 
+                 <h3>Celsius</h3>
+                  <p id="celsius"></p>
+            </div>
+      </div>
+
+      <div class="container">
+          <h1>Temperature Scale Converter</h1>
+                  <h3>Fahrenheit</h3> 
+              <label for ="temp"> Value</label><br>
+            <input type="number" id="temp" name="temp">
+              <button onclick="fahrenheitConverter()">Calculate</button>
+             <div> 
+                   <h3>Fahrenheit</h3>
+                    <p id="fahrenheit"></p>
+              </div>
+              <div>  
+                     <h3>Celsius</h3>
+                    <p id="celsius"></p>
+              </div>
+              <div>  
+                       <h3>Kelvin</h3>
+                      <p id="kelvin"></p>
+              </div>
+              <div> 
+                      <h3>Rankine</h3>
+                     <p id="rankine"></p>
+              </div>
+        </div>
+              <br/>
+              <hr/>
+              <br/>
+            <div class="container">
+              <h1>Temperature Scale Convertor</h1>
+                  <h3>Fahrenheit</h3> 
+              <label for="temp"> Value</label><br>
+
+            <input type="number" id="tempc" name="temp">
+
+            <select name="scale" id="scale">
+              <option value="fahrenheit">Fahrenheit</option>
+              <option value="celsius">celsuis</option>
+              <option value="rankine">Rankine</option>
+              <option value="kelvin">Kelvin</option>
+             
+            </select>
+
+              <button onclick="control()">Calculate</button>
+             <div> 
+                   <h3>Fahrenheit</h3>
+                    <p id="fahrenheitc"></p>
+              </div>
+              <div>  
+                     <h3>Celsius</h3>
+                    <p id="celsiusc"></p>
+              </div>
+              <div>  
+                       <h3>Kelvin</h3>
+                      <p id="kelvinc"></p>
+              </div>
+              <div> 
+                      <h3>Rankine</h3>
+                     <p id="rankinec"></p>
+              </div>
+              
+             </div>
+            <script src="script.js"> </script>
+      </body>
+
+
+  </html>
