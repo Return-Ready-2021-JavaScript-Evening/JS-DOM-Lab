@@ -7,14 +7,21 @@
 </head>
 <body>
     <h1>Temp Convertor</h1>
-    <p>fahrenheit</p>
-    <label>Value</label>
-    <input type = 'number' class = "userInput">
-    <button class = 'calculateButton'>Calculate</button>
-    <p>Celsius<span class = "celsius"></span></p>
+    <p class = "f">Fahrenheit</p>
+    
+    <form>
+        
+        Value <input type = 'text' id = "userInput"/>
+        <input type = 'button' id = 'calculate' onClick = 'calc()' value = 'Calculate'/>
+        <p>Celsius</p> <br>
+        <p>
+        <span id = "cValue"></span>
+        </p>
+
+    </form>
 
     
-    <script src = "domlab.js"></script>
-    <script src = "domlab.css" rel = "stylesheet"></script>
+    <script src = "domlab.js"  defer></script>
+    <!-- <link href = "domlab.css" rel = "stylesheet"></script> -->
 </body>
 </html>
