@@ -1,0 +1,28 @@
+h1 {
+    font-size: 30px;
+
+}
+
+.first {
+    display:block;
+    position:relative;
+}
+
+#userInput, label {
+    display:block;
+    position: relative;
+    top: 10%;
+    left: 35%;
+    width: 25%;
+    text-align: center;
+    
+    
+}
+
+#calculate {
+    display: block;
+    position: absolute;
+    top: 16%;
+    left: 75%;
+    text-align: center;
+}
